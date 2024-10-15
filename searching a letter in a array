@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+ char arr[100],l;
+ int i,n,temp;
+ printf("enter the no of letters in the array:");
+ scanf("%d",&n);
+ for(i=0;i<n;i++)
+ {
+     printf("enter the letters:");
+     scanf("%s",&arr[i]);
+ }
+ printf("enter the searching letter:");
+ scanf("%s",&l);
+ for(i=0;i<n;i++)
+ {
+   if(arr[i]==l)
+   {
+       temp=1;
+   }
+ }
+ if(temp=1)
+ {
+     printf("it is present");
+ }
+
+   return 0;
+   }
