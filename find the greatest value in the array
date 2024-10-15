@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+ int arr[100],i,n;
+ printf("enter the no of values:");
+ scanf("%d",&n);
+ for(i=0;i<n;i++)
+ {
+    printf("enter the values :");
+    scanf("%d",&arr[i]);
+    arr[0]=arr[0]>arr[i]?arr[0]:arr[i];
+ }   
+ printf("the greatest value is :%d",arr[0]);
+	 return 0;
+}
