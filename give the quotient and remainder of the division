@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int a,b,q,r;
+  printf("enter the dividend:");
+  scanf("%d",&a);
+  printf("enter the divisor:");
+  scanf("%d",&b);
+  q=a/b;
+  r=a%b;
+  printf("the quotient of the division is %d\n",q);
+  printf("the remainder of the division is %d\n",r);
+  return 0;
+}
