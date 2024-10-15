@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+  int a,b,temp;
+  a=1;
+  b=2;
+  temp=a;
+  a=b;
+  b=temp;
+  printf("%d\n",a);
+  printf("%d\n",b);
+  return 0;
+}
