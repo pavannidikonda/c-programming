@@ -2,7 +2,7 @@
 int main()
 {
  char arr[100],l;
- int i,n,temp;
+ int i,n,temp=0;
  printf("enter the no of letters in the array:");
  scanf("%d",&n);
  for(i=0;i<n;i++)
@@ -17,12 +17,14 @@ int main()
    if(arr[i]==l)
    {
        temp=1;
-   }
- }
- if(temp=1)
+   }}
+ if(temp==1)
  {
      printf("it is present");
  }
-
+ else
+ {
+     printf("it is not present");
+ }
    return 0;
    }
