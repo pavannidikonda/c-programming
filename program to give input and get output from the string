@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char name[100];
+    printf("enter the name:");
+    fgets(name,100,stdin);
+    puts(name);
+}
