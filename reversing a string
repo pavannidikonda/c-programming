@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+   char string[50],revstr[50],i;
+   printf("Enter a string:");
+   scanf("%s",string);
+   for(i=strlen(string)-1;i>=0;i--)
+   {  
+      revstr[strlen(string)-i-1]=string[i]; 
+   }
+   printf("reversed string:%s",revstr);
+}
