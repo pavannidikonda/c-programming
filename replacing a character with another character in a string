@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<string.h>
+void main()
+{
+    char str[50],r1,r2;
+    int i,flag=0;
+    printf("Enter your string :");
+    fgets(str,50,stdin);
+    printf("Enter charcter which is to be replaced:");
+    scanf(" %c",&r1);
+    printf("enter the new character:");
+    scanf(" %c",&r2);
+    for(i=0;i<strlen(str);i++)
+    {
+        if(str[i]==r1)
+        {
+            str[i]=r2;
+        }
+        
+    }
+    printf("the new string is %s",str);
+}
