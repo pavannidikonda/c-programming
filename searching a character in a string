@@ -7,7 +7,7 @@ void main()
     printf("Enter your name :");
     fgets(str,50,stdin);
     printf("Enter charcter to search:");
-    scanf("%d",&l);
+    scanf("%c",&l);
     for(i=0;i<50-1;i++)
     {
         if(l==str[i])
