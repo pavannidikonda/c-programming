@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char pwd1[10],pwd2[10];
+    int a;
+    printf("enter the password:");
+    fgets(pwd1,10,stdin);
+    printf("re-enter the password:");
+    fgets(pwd2,10,stdin);
+    a=strcmp(pwd1,pwd2);
+    if(a==0)
+    {
+        printf("password is matched");
+    }
+    else
+    {
+        printf("password is mismatched"); 
+    }
+    return 0;
+}
