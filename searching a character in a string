@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include<string.h>
+void main()
+{
+    char str[50],l;
+    int i,flag=0;
+    printf("Enter your name :");
+    fgets(str,50,stdin);
+    printf("Enter charcter to search:");
+    scanf("%d",&l);
+    for(i=0;i<50-1;i++)
+    {
+        if(l==str[i])
+        {
+            flag=1;
+            break;
+        }
+        
+    }
+    if(flag==1)
+    {
+        printf("Yes");
+    }
+    else
+    {
+        printf("No");
+    }
+    
+}
