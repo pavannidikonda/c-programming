@@ -8,13 +8,15 @@ int main()
     {
         if(n%i==0)
         {
-          printf("it is not a prime");
           flag=1;
           break;
-        }
-        if(flag=0)
+        }}
+        if(flag==0)
         {
             printf("it is a prime");
         }
-    }
+        else
+        {
+            printf("it is not a prime");
+        }
 }
