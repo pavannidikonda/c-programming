@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char s[100];
+    int i,len,count=0;
+    printf("enter the sentence :");
+    gets(s);
+    len=strlen(s);
+    for(i=0;i<len;i++)
+    {
+        if(s[i]==' '&&s[i+i]!=' ')
+        {
+            count=count+1;
+        }
+    }
+    printf("the number of words in the sentence is %d",count+1);
+}
