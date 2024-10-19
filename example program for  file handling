@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    FILE *fptr;
+    fptr=fopen("file handling.txt","a");
+    fputs("this program is example of file handling",fptr);
+    fclose(fptr);
+    return 0;
+}
