@@ -8,9 +8,9 @@ struct student
 void main()
 {
     struct student s[4];
+    printf("enter the students information...\n");
     for( int i=0;i<4;++i)
     {
-        printf("enter the students information...\n");
         printf("enter the student name %d:",i+1);
         scanf("%s",s[i].name);
         printf(" enter the marks of 5 subject :");
@@ -36,5 +36,3 @@ void main()
     printf("\nthe topper name is %s\n",s[max].name);
     printf("\nthe average is %f",s[max].average);
 }
-
-
